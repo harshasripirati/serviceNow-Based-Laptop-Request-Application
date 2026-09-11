@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-09-11 16:06:57">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Update set for Employee Laptop Management</description>
+<inserted/>
+<name>HR onboarding application</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date>2026-09-04 09:17:56</release_date>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>c575f432474747100169eb0f316d430a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-11 16:06:57</sys_created_on>
+<sys_id>8f46524147d38f100169eb0f316d43c0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-11 16:06:57</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_relationship_6966817647c747100169eb0f316d435a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_2056462_projec_0_laptop_request_form&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;sysapproval_approver&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Laptop request1&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('source_table', parent.getTableName());
+    current.addQuery('document_id', parent.sys_id);
+
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-04 10:33:37&lt;/sys_created_on&gt;&lt;sys_id&gt;6966817647c747100169eb0f316d435a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Laptop request1&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_6966817647c747100169eb0f316d435a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-04 10:33:37&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6966817647c747100169eb0f316d435a"/&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;6966817647c747100169eb0f316d435a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-04 10:33:37&lt;/sys_created_on&gt;&lt;sys_id&gt;1ce6c9f647c747100169eb0f316d43e2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-04 10:33:37&lt;/sys_updated_on&gt;&lt;table&gt;sys_relationship&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-817672665</payload_hash>
+<remote_update_set display_value="HR onboarding application">8f46524147d38f100169eb0f316d43c0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-11 16:06:57</sys_created_on>
+<sys_id>4346524147d38f100169eb0f316d43c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a06bfb2bab0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-11 16:06:57</sys_updated_on>
+<table/>
+<target_name>Laptop request1</target_name>
+<type>Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>1ce6017ad8c747100184682de8699e4f</update_guid>
+<update_guid_history>1ce6017ad8c747100184682de8699e4f:-817672665</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c9b166a8c0a80164124446f996461f7f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>admin role required to write to Field class records</description><local_or_existing/><name>sys_glide_object</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>myla.jordan</sys_created_by><sys_created_on>2011-03-18 15:59:29</sys_created_on><sys_id>c9b166a8c0a80164124446f996461f7f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>sys_glide_object</sys_name><sys_package display_value="Security Jump Start (ACL Rules)" source="com.snc.system_security">8a72a50ca56503108bb220b7a4d212c1</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_c9b166a8c0a80164124446f996461f7f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 11:53:42</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1470932947</payload_hash>
+<remote_update_set display_value="HR onboarding application">8f46524147d38f100169eb0f316d43c0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-11 16:06:57</sys_created_on>
+<sys_id>8746524147d38f100169eb0f316d43c2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a06c447ccc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-11 16:06:57</sys_updated_on>
+<table>sys_glide_object</table>
+<target_name>sys_glide_object</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>9d3955fe944b4710517d2a0848e5e68d</update_guid>
+<update_guid_history>9d3955fe944b4710517d2a0848e5e68d:1470932947,553951feec4b471073c63cf192f3a14e:1651362212</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_glide_object_bb3227aec0a80164012fb063bf06ebbf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_glide_object"><sys_glide_object action="INSERT_OR_UPDATE"><attributes/><class_name/><label>Email</label><name>email</name><scalar_length/><scalar_type>string</scalar_type><sys_class_name>sys_glide_object</sys_class_name><sys_created_by>fred.luddy</sys_created_by><sys_created_on>2004-09-01 18:11:59</sys_created_on><sys_id>bb3227aec0a80164012fb063bf06ebbf</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Email</sys_name><sys_package display_value="System (apps/system)" source="apps/system">b42d5100a52103108bb220b7a4d212c9</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_glide_object_bb3227aec0a80164012fb063bf06ebbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 11:54:29</sys_updated_on><use_original_value>true</use_original_value><visible>true</visible></sys_glide_object></record_update>]]></payload>
+<payload_hash>-623740780</payload_hash>
+<remote_update_set display_value="HR onboarding application">8f46524147d38f100169eb0f316d43c0</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-11 16:06:57</sys_created_on>
+<sys_id>c346524147d38f100169eb0f316d43c1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a06c4533ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-11 16:06:57</sys_updated_on>
+<table/>
+<target_name>Email</target_name>
+<type>Field class</type>
+<update_domain>global</update_domain>
+<update_guid>f869d9fe634b4710634056d2a21caa5a</update_guid>
+<update_guid_history>f869d9fe634b4710634056d2a21caa5a:-623740780,b069d9fe154b47102a45971ac3484a58:391034833</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
